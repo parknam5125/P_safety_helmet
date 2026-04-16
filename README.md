@@ -1,4 +1,4 @@
-📌 Overview
+#📌 Overview
 
 본 프로젝트는 산업 현장에서 발생할 수 있는 안전사고를 예방하기 위해
 영상 데이터 + 센서 데이터를 실시간으로 융합하여 위험도를 분석하는 스마트 안전모 시스템이다.
@@ -28,23 +28,23 @@
 
 ---
 
-⚙️ Core Modules
+#⚙️ Core Modules
 
-🎥 Video Processing
+##🎥 Video Processing
 - GStreamer + WebRTC 기반 영상 수신
 - YOLO 기반 헬멧 착용 여부 판단
 - head + helmet overlap 로직 적용
 
-🌡️ Sensor Processing
+##🌡️ Sensor Processing
 - MQTT 기반 실시간 데이터 수신
 - JSON 데이터 처리
 
-🧠 CBR Engine
+##🧠 CBR Engine
 - KNN 기반 유사도 분석
 - Rule-based + Weighted 모델
 - Ensemble 방식 위험도 판단
 
-📊 Dashboard UI
+##📊 Dashboard UI
 - 실시간 위험도 시각화
 - 디바이스 상태 표시
 - 이벤트 로그 관리
